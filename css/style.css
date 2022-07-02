@@ -1,0 +1,244 @@
+.author{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: none;
+    justify-content: center;
+    margin-top: 50px;
+    color: #0A3871;
+    margin: auto;
+    font: message-box;
+
+}
+
+* {
+    color: #333333;
+    font-size: .8rem;
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+@font-face {
+    font-family: text;
+    src: url("../font/Virus\ Killer.ttf")
+
+}
+
+body {
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.cabecalho {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}    
+
+.logo-forca {
+    font-family: text;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #0A3871;
+}
+
+.titulo-inicial {
+    font-size: 45px;
+}
+
+.botao-iniciar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    width: 320px;
+    height: 105px;
+    background: #FC5658;
+    color: white;
+    border: 5px solid #0A3871;
+    border-radius: 24cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.botao-adicionar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    width: 320px;
+    height: 105px;
+    background: #c9eb35;
+    color: white;
+    border: 5px solid #0A3871;
+    border-radius: 24cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.area-texto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    background: transparent;
+    color: #0A3871;
+    border: 0px solid;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+::-webkit-input-placeholder {
+    color:#0A3871;
+}
+
+.max-palavra {
+    display: flex;
+    justify-content: center;
+    color: darkgrey;
+    margin-bottom: 50px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.salvar {
+    display: block;
+    font-size: 25px;
+    width: 320px;
+    height: 105px;
+    background: #c9eb35;
+    color: white;
+    border: 5px solid #0A3871;
+    border-radius: 24cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cancelar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    width: 320px;
+    height: 105px;
+    background: #FC5658;
+    color: white;
+    border: 5px solid #0A3871;
+    border-radius: 24cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rodape {
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media(max-width: 760px) {
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-um {
+    width: 20%;
+}
+
+.logo-dois {
+    width: 90%;
+    margin-top: 5%;
+}
+
+.logo-forca {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+
+#botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-iniciar {
+    width: 250px;
+    font-size: 20px;
+}
+
+.botao-adicionar {
+    width: 250px;
+    font-size: 20px;
+}
+
+
+/* layout pag adicionar palavra*/
+
+.area-texto {
+    display: flex;
+    width: 90%;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.salvar {
+    width: 200px;
+    margin: 5%;
+}
+
+.cancelar {
+    width: 200px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 10%;
+}
+
+}
